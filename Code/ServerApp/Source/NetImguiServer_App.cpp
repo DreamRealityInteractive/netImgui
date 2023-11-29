@@ -154,6 +154,7 @@ void DrawClientBackground(RemoteClient::Client& client)
 			}
 		}		
 		UI::DrawCenteredBackground(*pTexture, ImVec4(client.mBGSettings.mTextureTint[0],client.mBGSettings.mTextureTint[1],client.mBGSettings.mTextureTint[2],client.mBGSettings.mTextureTint[3]));
+        ImGui::Dummy(ImVec2(0,0));
 		ImGui::End();
 		ImGui::Render();
 		client.mBGNeedUpdate = false;
