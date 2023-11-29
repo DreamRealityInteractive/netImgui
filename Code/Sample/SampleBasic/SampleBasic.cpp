@@ -6,7 +6,7 @@
 //=================================================================================================
 
 #include <NetImgui_Api.h>
-#include "..\Common\Sample.h"
+#include "../Common/Sample.h"
 
 namespace SampleClient
 {

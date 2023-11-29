@@ -5,7 +5,7 @@
 //=================================================================================================
 
 #include <NetImgui_Api.h>
-#include "..\Common\Sample.h"
+#include "../Common/Sample.h"
 
 // Since NetImgui is disabled in this sample, hit will not include this header
 #if !NETIMGUI_ENABLED
